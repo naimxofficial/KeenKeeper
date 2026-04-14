@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Aisha Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "aisha.rahman@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met during freshman orientation. We survived finals week together more times than I can count.",
+    "goal": 14,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Liu",
+    "picture": "https://randomuser.me/api/portraits/men/34.jpg",
+    "email": "marcus.liu@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "gym buddy"],
+    "bio": "Colleagues turned close friends. We hit the gym every other week and talk shop over coffee.",
+    "goal": 10,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 3,
+    "name": "Priya Nair",
+    "picture": "https://randomuser.me/api/portraits/women/45.jpg",
+    "email": "priya.nair@yahoo.com",
+    "days_since_contact": 27,
+    "status": "overdue",
+    "tags": ["childhood", "family friend"],
+    "bio": "Our families grew up on the same street. She moved to London but we try to stay in touch.",
+    "goal": 21,
+    "next_due_date": "2026-04-03"
+  },
+  {
+    "id": 4,
+    "name": "Daniel Osei",
+    "picture": "https://randomuser.me/api/portraits/men/58.jpg",
+    "email": "d.osei@protonmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["college", "travel buddy"],
+    "bio": "Backpacked through Southeast Asia together in 2019. Still planning the next adventure.",
+    "goal": 10,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 5,
+    "name": "Sofia Morales",
+    "picture": "https://randomuser.me/api/portraits/women/67.jpg",
+    "email": "sofia.morales@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["close friend", "book club"],
+    "bio": "We bond over literary fiction and terrible reality TV. Monthly book club was her idea.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 6,
+    "name": "James Whitfield",
+    "picture": "https://randomuser.me/api/portraits/men/22.jpg",
+    "email": "james.w@icloud.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["old friend", "high school"],
+    "bio": "Best friends through high school. Life got busy but the friendship never faded.",
+    "goal": 30,
+    "next_due_date": "2026-03-28"
+  },
+  {
+    "id": 7,
+    "name": "Yuna Park",
+    "picture": "https://randomuser.me/api/portraits/women/29.jpg",
+    "email": "yuna.park@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["work", "mentor"],
+    "bio": "My first manager — now a trusted mentor and friend. Brilliant at cutting through noise.",
+    "goal": 14,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 8,
+    "name": "Tariq Hassan",
+    "picture": "https://randomuser.me/api/portraits/men/77.jpg",
+    "email": "tariq.hassan@hotmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["neighbor", "close friend"],
+    "bio": "Met when he moved in next door three years ago. Weekly dinners became a ritual.",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  }
+]
