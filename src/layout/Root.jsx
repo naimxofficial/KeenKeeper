@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navigation/Navbar';
-import Footer from '../components/footer/footer';
+import Footer from '../components/Footer/Footer';
 import { Outlet } from 'react-router';
 
 
@@ -15,7 +15,7 @@ const Root = () => {
                 <Outlet></Outlet>
             </section>
 
-            <footer  className='w-11/12 mx-auto'>
+            <footer  className='w-11/12 mx-auto text-white bg-[#244D3F]'>
             <Footer></Footer>
             </footer>
         </section>
