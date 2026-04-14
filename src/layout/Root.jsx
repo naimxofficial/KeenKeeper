@@ -15,7 +15,7 @@ const Root = () => {
                 <Outlet></Outlet>
             </section>
 
-            <footer  className='w-11/12 mx-auto text-white bg-[#244D3F]'>
+            <footer  className='w-11/12 mx-auto text-white bg-[#244D3F] '>
             <Footer></Footer>
             </footer>
         </section>
