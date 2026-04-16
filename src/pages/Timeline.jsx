@@ -12,7 +12,7 @@ const Timeline = () => {
 
     if (timeline.length === 0) {
         return (
-            <div className='w-11/12 mx-auto py-20 space-y-6'>
+            <div className='w-11/12 mx-auto py-20 space-y-6 drop-shadow-sm'>
                 <h2 className='font-bold text-5xl'>Timeline</h2>
             <div className=' font-bold text-3xl not-md:text-2xl not-md:p-20 p-50 bg-white text-center rounded-lg drop-shadow-xs'>
                 <h2>No interactions on Timeline</h2>

@@ -1,4 +1,4 @@
-import React, { Suspense, use } from 'react';
+import React, { Suspense } from 'react';
 import FriendCard from '../components/ui/FriendCard';
 import AllFriends from '../components/AllFriends';
 
