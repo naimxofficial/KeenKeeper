@@ -1,19 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { BiMessageDots } from 'react-icons/bi';
 import { FiArchive } from 'react-icons/fi';
 import { MdOutlineNotificationsPaused } from 'react-icons/md';
 import { PiPhoneCallBold, PiVideoCameraBold } from 'react-icons/pi';
 import { RiDeleteBinLine } from 'react-icons/ri';
 import { useLoaderData, useParams } from 'react-router';
+import { FriendContext } from '../context/FriendContext';
 
 const FriendDetails = () => {
     const { id } = useParams();
-    console.log(id);
+    // console.log(id);
     const friends = useLoaderData();
-    console.log(friends);
+    // console.log(friends);
     const friend = friends.find(friend => friend.id === Number(id));
-    console.log(friend);
+    // console.log(friend);
     const { picture, name, days_since_contact, tags, status, bio, email, goal, next_due_date } = friend;
+
+    const {handleTimeline} = useContext(FriendContext);
+    console.log(handleTimeline)
     return (
         <div className='bg-[#F8FAFC] py-20 grid-cols-1 grid md:grid-cols-2 lg:grid-cols-3 md:gap-6 w-11/12 mx-auto'>
             {/* Left side */}
@@ -87,13 +91,13 @@ const FriendDetails = () => {
                     <h2 className='font-medium text-xl text-[#244D3F]'>Quick Check-In</h2>
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
                         {/* Call */}
-                        <div className='text-lg flex flex-col items-center justify-center text-center p-4 bg-[#f8fafc] rounded-lg gap-2 transition-all duration-200 ease-in-out hover:scale-105 active:scale-95 drop-shadow-sm'><PiPhoneCallBold className='text-3xl' /> <p>Call</p></div>
+                        <div onClick={() => handleTimeline(friend, 'call')} className='text-lg flex flex-col items-center justify-center text-center p-4 bg-[#f8fafc] rounded-lg gap-2 transition-all duration-200 ease-in-out hover:scale-105 active:scale-95 drop-shadow-sm'><PiPhoneCallBold className='text-3xl' /> <p>Call</p></div>
 
                         {/* Text */}
-                        <div className='text-lg flex flex-col items-center justify-center text-center p-4 bg-[#f8fafc] rounded-lg gap-2 transition-all duration-200 ease-in-out hover:scale-105 active:scale-95 drop-shadow-sm'><BiMessageDots  className='text-3xl' /> <p>Text</p></div>
+                        <div  onClick={() => handleTimeline(friend, 'text')} className='text-lg flex flex-col items-center justify-center text-center p-4 bg-[#f8fafc] rounded-lg gap-2 transition-all duration-200 ease-in-out hover:scale-105 active:scale-95 drop-shadow-sm'><BiMessageDots  className='text-3xl' /> <p>Text</p></div>
 
                         {/* Video */}
-                        <div className=' text-lg flex flex-col items-center justify-center text-center p-4 bg-[#f8fafc] rounded-lg gap-2 transition-all duration-200 ease-in-out hover:scale-105 active:scale-95 drop-shadow-sm'><PiVideoCameraBold   className='text-3xl' /> <p>Video</p></div>
+                        <div  onClick={() => handleTimeline(friend, 'video')} className=' text-lg flex flex-col items-center justify-center text-center p-4 bg-[#f8fafc] rounded-lg gap-2 transition-all duration-200 ease-in-out hover:scale-105 active:scale-95 drop-shadow-sm'><PiVideoCameraBold   className='text-3xl' /> <p>Video</p></div>
                     </div>
 
                 </div>
