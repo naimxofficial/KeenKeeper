@@ -4,7 +4,7 @@
 
 KeenKeeper is a personal relationship management app that helps you stay connected with the people who matter most. Track your friends, log interactions, visualize your communication patterns, and never let an important relationship go cold again.
 
-🌐 **Live Site:** [https://keenkeeper-naimxofficial.netlify.app/](https://keenkeeper-naimxofficial.netlify.app/)
+🌐 **Live Site:** [https://keen-keeper-plum.vercel.app/](https://keen-keeper-plum.vercel.app/)
 
 ---
 
